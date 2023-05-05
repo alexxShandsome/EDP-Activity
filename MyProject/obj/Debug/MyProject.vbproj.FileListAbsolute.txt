@@ -1,0 +1,5 @@
+C:\Users\al\Desktop\Git\EDP-Activity-5\MyProject\obj\Debug\MyProject.vbproj.AssemblyReference.cache
+C:\Users\al\Desktop\Git\EDP-Activity-5\MyProject\obj\Debug\MyProject.vbproj.SuggestedBindingRedirects.cache
+C:\Users\al\Desktop\Git\EDP-Activity-5\MyProject\obj\Debug\MyProject.Resources.resources
+C:\Users\al\Desktop\Git\EDP-Activity-5\MyProject\obj\Debug\MyProject.vbproj.GenerateResource.cache
+C:\Users\al\Desktop\Git\EDP-Activity-5\MyProject\obj\Debug\MyProject.vbproj.CoreCompileInputs.cache
