@@ -1,2 +1,2 @@
-# EDP-Activity-5
+# EDP Activity
 Author: Algilbert T. Gomez BSIT-3C
