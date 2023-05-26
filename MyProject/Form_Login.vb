@@ -18,6 +18,8 @@ Public Class Form_Login
             myreader = mycmd.ExecuteReader
             If myreader.HasRows Then
                 MsgBox("Hello " & .UsernameTextBox.Text)
+                Landing.welcome_string = "Welcome " + UsernameTextBox.Text
+                Landing.Show()
             Else
                 MessageBox.Show("Invalid username or password")
             End If

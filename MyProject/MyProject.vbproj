@@ -120,6 +120,12 @@
       <DependentUpon>Form_Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Landing.Designer.vb">
+      <DependentUpon>Landing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Landing.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Module_public.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -140,6 +146,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Landing.resx">
+      <DependentUpon>Landing.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

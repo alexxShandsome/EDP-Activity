@@ -33,41 +33,46 @@ Partial Class Form_Login
         '
         'LoginBtn
         '
-        Me.LoginBtn.Location = New System.Drawing.Point(127, 314)
+        Me.LoginBtn.Location = New System.Drawing.Point(112, 348)
+        Me.LoginBtn.Margin = New System.Windows.Forms.Padding(4)
         Me.LoginBtn.Name = "LoginBtn"
-        Me.LoginBtn.Size = New System.Drawing.Size(198, 30)
+        Me.LoginBtn.Size = New System.Drawing.Size(264, 37)
         Me.LoginBtn.TabIndex = 0
         Me.LoginBtn.Text = "Login"
         Me.LoginBtn.UseVisualStyleBackColor = True
         '
         'PasswordTextBox
         '
-        Me.PasswordTextBox.Location = New System.Drawing.Point(99, 211)
+        Me.PasswordTextBox.Location = New System.Drawing.Point(75, 222)
+        Me.PasswordTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.PasswordTextBox.Multiline = True
         Me.PasswordTextBox.Name = "PasswordTextBox"
-        Me.PasswordTextBox.Size = New System.Drawing.Size(248, 44)
+        Me.PasswordTextBox.Size = New System.Drawing.Size(329, 53)
         Me.PasswordTextBox.TabIndex = 1
         '
         'ContextMenuStrip1
         '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
         '
         'UsernameTextBox
         '
-        Me.UsernameTextBox.Location = New System.Drawing.Point(99, 122)
+        Me.UsernameTextBox.Location = New System.Drawing.Point(75, 112)
+        Me.UsernameTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.UsernameTextBox.Multiline = True
         Me.UsernameTextBox.Name = "UsernameTextBox"
-        Me.UsernameTextBox.Size = New System.Drawing.Size(248, 44)
+        Me.UsernameTextBox.Size = New System.Drawing.Size(329, 53)
         Me.UsernameTextBox.TabIndex = 3
         '
         'UsernameLabel
         '
         Me.UsernameLabel.AutoSize = True
         Me.UsernameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UsernameLabel.Location = New System.Drawing.Point(107, 85)
+        Me.UsernameLabel.Location = New System.Drawing.Point(86, 67)
+        Me.UsernameLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.UsernameLabel.Name = "UsernameLabel"
-        Me.UsernameLabel.Size = New System.Drawing.Size(70, 16)
+        Me.UsernameLabel.Size = New System.Drawing.Size(86, 20)
         Me.UsernameLabel.TabIndex = 5
         Me.UsernameLabel.Text = "Username"
         '
@@ -75,23 +80,26 @@ Partial Class Form_Login
         '
         Me.PasswordLabel.AutoSize = True
         Me.PasswordLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PasswordLabel.Location = New System.Drawing.Point(107, 180)
+        Me.PasswordLabel.Location = New System.Drawing.Point(86, 184)
+        Me.PasswordLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.PasswordLabel.Name = "PasswordLabel"
-        Me.PasswordLabel.Size = New System.Drawing.Size(67, 16)
+        Me.PasswordLabel.Size = New System.Drawing.Size(83, 20)
         Me.PasswordLabel.TabIndex = 6
         Me.PasswordLabel.Text = "Password"
         '
         'Form_Login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(498, 468)
         Me.Controls.Add(Me.PasswordLabel)
         Me.Controls.Add(Me.UsernameLabel)
         Me.Controls.Add(Me.UsernameTextBox)
         Me.Controls.Add(Me.PasswordTextBox)
         Me.Controls.Add(Me.LoginBtn)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form_Login"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()

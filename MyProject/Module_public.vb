@@ -6,8 +6,8 @@ Module Module_public
 
     Public Sub Connect_to_DB()
         myConnectionString = "server=127.0.0.1;" _
-                    & "uid=al;" _
-                    & "pwd=hello;" _
+                    & "uid=root;" _
+                    & "pwd=1234;" _
                     & "database=edp_database"
         Try
             myconn.ConnectionString = myConnectionString
@@ -15,7 +15,7 @@ Module Module_public
         Catch ex As MySqlException
             Select Case ex.Number
                 Case 0
-                    MsgBox("Cannot Connect to Server")
+                    MsgBox(ex.Message)
                 Case 1045
                     MsgBox("Invalid Username or password")
             End Select
